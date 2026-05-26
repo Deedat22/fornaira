@@ -23,7 +23,7 @@
     { src: "photos/foto9.jpg", caption: "still replaying this memory 🌸 🌸", note: "thank you for existing 💌" },
     { src: "photos/foto10.jpg", caption: "best day of my life 🌷", note: "still my favorite memory ever" },
     { src: "photos/foto11.jpg", caption: "ordinary days felt special ❤️", note: "i wish we could relive this day ✨" },
-    { src: "photos/foto12.jpg", caption: "special moments 🌸", note: "thank you for making life prettier 💌" },
+    { src: "photos/foto12.jpg", caption: "hi pretty 🌸", note: "thank you for making life prettier 💌" },
     { src: "photos/foto13.jpg", caption: "special moments with you 🌸💖", note: "i love every memory with you naira." }
   ];
 

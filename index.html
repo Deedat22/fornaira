@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, viewport-fit=cover">
+  <title>for naira</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='85' font-size='85' text-anchor='middle' fill='%23ff4f81'%3E🌸%3C/text%3E%3C/svg%3E">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- LOCK SCREEN -->
+<div id="lockScreen">
+  <h1>🔐 naira 🔐</h1>
+  <div id="countdown"></div>
+  <div id="pinContainer">
+    <input type="password" id="pinInput" placeholder="code?" maxlength="6" inputmode="numeric">
+    <button id="submitPin">✨ open ✨</button>
+    <div id="wrongPin"></div>
+  </div>
+</div>
+
+<!-- MAIN CONTENT -->
+<div id="mainContent">
+  <div id="typing"></div>
+  <div class="memoryCount" id="memoryCounter">📸 a few photos</div>
+  
+  <div class="sectionTitle hidden">📸 photos</div>
+  <div class="gallery" id="galleryContainer"></div>
+  
+  <div class="sectionTitle hidden">📝 a note</div>
+  <div id="envelopeSection">
+    <div id="envelopeContainer">
+      <div id="envelope"><div class="envelopeFront"></div></div>
+      <div class="letter">
+        <h2>📝 a note</h2>
+        <p>Naira, I don't really know why I'm writing this. Maybe because some nights still feel a little too quiet, and somehow my mind always ends up back to you.<br><br>I still remember all the random things we used to do. The dumb jokes that only we found funny, the late-night talks when neither of us wanted to sleep yet. And honestly I miss that sometimes.<br><br>Not even in a "please come back" kind of way. I think I just miss the feeling of having someone who made everything feel lighter without even trying. You did that a lot, probably without realizing it.<br><br>I know things changed. People change too, I guess. Maybe we were only meant to know each other for that part of life. Still... I'm grateful it happened at all.<br><br>So this is just me saying thank you. For the memories, for the comfort, for being someone I could genuinely smile with. Some people leave quietly but still stay in certain parts of you. I think you'll always be one of those people for me.<br><br>I hope you're okay now. I hope life's softer with you these days.<br><br>And if someday you randomly remember me too, I hope it makes you smile a little.<br><br>— Kak Deedat</p>
+      </div>
+      <div class="tapText">💖 click / tap to open 💖</div>
+    </div>
+    <div class="secret-flower" id="secretFlowerTrigger">🌸🌼🌸</div>
+    <div id="secretMessage">💕 maybe we were only a temporary chapter in each other's lives, but I'll still reread the memories sometimes. 💕</div>
+  </div>
+  
+  <div class="sticker star1">✨💖</div>
+  <div class="sticker star2">🌸🎀</div>
+  <div class="sticker star3">💌🌈</div>
+  <div class="sticker star4">⭐🌹</div>
+</div>
+
+<!-- MODAL -->
+<div id="imageModal">
+  <span id="closeModal">&times;</span>
+  <button id="prevBtn">❮</button>
+  <button id="nextBtn">❯</button>
+  <img id="modalImage" src="" alt="Memory">
+  <div id="modalNote"></div>
+</div>
+
+<!-- MUSIC PLAYER + VOLUME CONTROL -->
+<div class="music-controls">
+  <button id="musicToggleBtn" class="music-btn">🔇</button>
+  <input type="range" id="volumeSlider" class="volume-slider" min="0" max="100" value="20">
+</div>
+
+<!-- BACK TO TOP BUTTON -->
+<button id="backToTopBtn" class="back-to-top" style="display: none;">↑</button>
+
+<script src="script.js"></script>
+</body>
+</html>
